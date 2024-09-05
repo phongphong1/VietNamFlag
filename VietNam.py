@@ -4,12 +4,6 @@ import math
 a = 300.0
 b = 3 / 5 * a * math.sin(math.pi/5) / math.sin(3*math.pi/10)
 
-
-# window = turtle.Screen()
-# window.bgcolor("white")
-# window.title("Happy VietNam Independence Day")
-# window.setup(1000, 800, -900, 50)
-
 t = turtle.Turtle()
 t.up()
 t.goto(-3*a/2, a)
